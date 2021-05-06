@@ -1,0 +1,13 @@
+file_title             = vladivostok
+data_format            = float32
+map_projection         = Lat/Lon
+left_map_x             = 131.811005
+lower_map_y            = 42.985001
+right_map_x            = 131.985992
+upper_map_y            = 43.164001
+number_of_rows         = 216
+number_of_columns      = 211
+elev_m_unit            = meters
+elev_m_minimum         = -97
+elev_m_maximum         = 415
+elev_m_missing_flag    = -9999
