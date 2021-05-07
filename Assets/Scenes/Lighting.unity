@@ -1660,7 +1660,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1265608472}
   - component: {fileID: 1265608473}
-  - component: {fileID: 1265608474}
   m_Layer: 0
   m_Name: Front Left Light
   m_TagString: Untagged
@@ -1744,21 +1743,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &1265608474
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1265608471}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18b4d0ee244958a4c95a7a80f93aed3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lenghtOfTheDayInSec: 0
-  sunObject: {fileID: 0}
-  lights: []
 --- !u!1 &1268001587 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3546399759650991038, guid: 714f2feeed453164da1d76799648ea52, type: 3}
@@ -2697,7 +2681,6 @@ GameObject:
   - component: {fileID: 1886917849}
   - component: {fileID: 1886917848}
   - component: {fileID: 1886917847}
-  - component: {fileID: 1886917850}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2770,18 +2753,6 @@ Transform:
   m_Father: {fileID: 5006512735362752787}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 17.525, y: -90, z: 0}
---- !u!114 &1886917850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1886917846}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: debc05726388f0448aceaa1431879ab6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1912797851 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5302750353645065188, guid: 5c1d2952e70209b4588b37f5262883e8, type: 3}
